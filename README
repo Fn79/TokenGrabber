@@ -4,6 +4,7 @@
 빌드 방법은 생략하겠습니다.
 모르면 쓰지 마세요.
 
+윈도우에서만 작동이됩니다.
 
 `let webhook = Webhook::from_url("WebHook URL");` 부분 수정하면 됩니다.
 
